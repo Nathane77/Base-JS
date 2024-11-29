@@ -1,26 +1,22 @@
+//get constant of my buttons and my neutral square and the neutral square's text paragraph.
 const btns = document.querySelectorAll(".square");
 const squareN = document.querySelector('.squareNeutral');
 const squareNText = document.querySelector('.neutralText')
-let btnStyle = null;
 
-// btn1.addEventListener("click", test1);
-// btn2.addEventListener("click", test2);
-// btn3.addEventListener("click", test3);
-// btn4.addEventListener("click", test4);
-
+//make a foreach on the list of buttons to give them the event listener.
 btns.forEach(btn =>{
     btn.addEventListener("click", function(){
       
-    btnStyle = window.getComputedStyle(btn);
+    //create a variable with the style info of the clicked button.
+    let btnStyle = window.getComputedStyle(btn);
+    //create a variable with the background color of the clicked button.
     let btnBackground = btnStyle.getPropertyValue("background-color");
-
+    
+    //sets the color for the neutral square to the color of the last clicked square.
     squareN.style.backgroundColor = btnBackground;
 
-    NeutralSquareStyle = window.getComputedStyle(squareN);
-    let NeutralSquareRGB = NeutralSquareStyle.getPropertyValue("background-color");
-
-        squareNText.textContent = NeutralSquareRGB;
+    //sets the text on the neutral square to the value of the background color.
+        squareNText.textContent = btnBackground;
     })
     
 });
-
