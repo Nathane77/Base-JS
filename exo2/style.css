@@ -36,7 +36,7 @@ span{
     margin: 2em;
 }
 
-.square3{
+.vert{
     display:flex;
     background-color: green;
     height: 200px;
@@ -44,10 +44,30 @@ span{
     margin: 2em;
 }
 
-.square4{
+.jaune{
     display:flex;
     background-color: yellow;
     height: 200px;
     width: 200px;
     margin: 2em;
+}
+
+.containerNeutral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squareNeutral{
+    display:flex;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    margin: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.neutralText{
+    font-size: large;
 }

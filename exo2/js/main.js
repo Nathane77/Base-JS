@@ -1,4 +1,6 @@
-const btns = document.querySelectorAll(".btn");
+const btns = document.querySelectorAll(".square");
+const squareN = document.querySelector('.squareNeutral');
+const squareNText = document.querySelector('.neutralText')
 let btnStyle = null;
 
 // btn1.addEventListener("click", test1);
@@ -9,34 +11,16 @@ let btnStyle = null;
 btns.forEach(btn =>{
     btn.addEventListener("click", function(){
       
-  btnStyle = window.getComputedStyle(btn);
-  console.log(btnStyle);
-  let btnBackground = btnStyle.getPropertyValue("background-color");
-         console.log(btnBackground);
+    btnStyle = window.getComputedStyle(btn);
+    let btnBackground = btnStyle.getPropertyValue("background-color");
+
+    squareN.style.backgroundColor = btnBackground;
+
+    NeutralSquareStyle = window.getComputedStyle(squareN);
+    let NeutralSquareRGB = NeutralSquareStyle.getPropertyValue("background-color");
+
+        squareNText.textContent = NeutralSquareRGB;
     })
+    
 });
-
-// const array1 = ['a', 'b', 'c'];
-
-// btns.forEach((element) => console.log(element));
-// console.log(btns);
-
-
-
-//     // i => i.addEventListener
-// function test1(){
-//     console.log("btn");
-//     // newSquare = taskCard.cloneNode(true); 
-// }
-// function test2(){
-//     console.log("btn2"); 
-// }
-// function test3(){
-//     console.log("btn3"); 
-// }
-// function test4(){
-//     console.log("btn4"); 
-// }
-
-// console.log(btn1.className);
 
