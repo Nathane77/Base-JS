@@ -6,4 +6,20 @@
 
 This exercise is here to learn how to use `addEventListener` and `QuerySelector`in JS
 
-## **if you have question about the project you can contact me on **[linkedIn](https://www.linkedin.com/in/nassim-hammoudi-8a5235314/)**
+## **Main function of the project*
+
+
+This function makes and alert on the user's screen, showing all the CSS info of a button.
+```js
+function showInfo(){
+    alert("information de "+id+" \n\tcouleur: "+ color+
+   "\n\thauter: "+ height+
+   "\n\tlargeur: "+ width+
+   "\n\tafichage: "+ display+
+   "\n\tfont:"+ font // \n = new line \t = indentation
+);
+}
+```
+all the Constant are set right befor with QuerySelectors.
+
+## **if you have question about the project you can contact me on my **[linkedIn](https://www.linkedin.com/in/nassim-hammoudi-8a5235314/)**
