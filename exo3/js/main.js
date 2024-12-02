@@ -4,14 +4,10 @@ const squareTxt = document.querySelectorAll('.squareText');
 let i = 0;
 
 squares.forEach(square =>{
+   
     square.addEventListener("click", function(){
        animation(square);
-       i++;
-       
     })
-        squareTxt.forEach(txt =>{
-            squareTxt.textContent = "1";            
-        });
     }
 );
 
