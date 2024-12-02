@@ -12,7 +12,6 @@ squares.forEach(square =>{
 );
 
 function animation(square){
-    console.log('bonjour')
     if(square.className == "square"){
         square.classList.add("animation1");
     }
