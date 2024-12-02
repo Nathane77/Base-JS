@@ -20,47 +20,9 @@ span{
     width: 100% !important;
 }
 
-.bleu{
+.fb{
     display:flex;
-    background-color: darkcyan;
-    height: 200px;
-    width: 200px;
-    margin: 2em;
-}
-
-.rouge{
-    display:flex;
-    background-color: crimson;
-    height: 200px;
-    width: 200px;
-    margin: 2em;
-}
-
-.vert{
-    display:flex;
-    background-color: green;
-    height: 200px;
-    width: 200px;
-    margin: 2em;
-}
-
-.jaune{
-    display:flex;
-    background-color: yellow;
-    height: 200px;
-    width: 200px;
-    margin: 2em;
-}
-
-.containerNeutral{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.squareNeutral{
-    display:flex;
-    background-color: black;
+    background-color: #4267B2;
     height: 200px;
     width: 200px;
     margin: 2em;
@@ -68,6 +30,50 @@ span{
     align-items: center;
 }
 
-.neutralText{
-    font-size: large;
+.twt{
+    display:flex;
+    background-color: #1DA1F2;
+    height: 200px;
+    width: 200px;
+    margin: 2em;
+    justify-content: center;
+    align-items: center;
 }
+
+.insta{
+    display:flex;
+    background-color: #833AB4;
+    height: 200px;
+    width: 200px;
+    margin: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width:100px;
+    height:100px;
+    padding: 2em;
+}
+
+.zoom{
+    animation-name: zoom;
+    animation-duration: 100ms;
+    border-radius: 25%;
+    border: white solid;
+    border-width: 2px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.square{
+    flex-direction: column;
+}
+
+.text{
+    display: none;
+    color: white;
+    font-size: 1.5em;
+}
+

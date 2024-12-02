@@ -1,7 +1,7 @@
 //get constant of my buttons and my neutral square and the neutral square's text paragraph.
 const btns = document.querySelectorAll(".square");
 const squareN = document.querySelector('.squareNeutral');
-const squareNText = document.querySelector('.neutralText')
+const squareNText = document.querySelector('.neutralText');
 
 //make a foreach on the list of buttons to give them the event listener.
 btns.forEach(btn =>{
