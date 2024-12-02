@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.quote{
+    background-color: beige;
+
+    padding: 1em;
+    margin: 1em;
+    border-radius: 15px;
+}
+
+.txt{
+    padding: 0.2em 0;
+}
