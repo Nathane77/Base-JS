@@ -6,7 +6,7 @@
 
 This exercise is here to learn how to use `addEventListener` and `QuerySelector`in JS
 
-## **Main function of the project*
+## **Main function of the project**
 
 
 This function makes and alert on the user's screen, showing all the CSS info of a button.
