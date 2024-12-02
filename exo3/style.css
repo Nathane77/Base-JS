@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+}
+
+.row{
+    display: flex;
+    padding: 1em;
+}
+
+.square{
+    display: flex;
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+}
