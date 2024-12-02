@@ -6,7 +6,7 @@
 
 This exercise is here to learn how to use `array.forEach(element => { });` to assign `AddEventListener`to a list of elements in JS.
 
-## **Main function of the project*
+## **Main function of the project**
 
 
 This function add an `addEventListener` to each button in the array of buttons.
@@ -28,7 +28,7 @@ btns.forEach(btn =>{
     
 });
 ```
-Then it gives the function to executre when a button in clicked, here it gets the style of the clicked button and applies it to the neutral square.
+Then it gives the function to execute when a button is clicked, here it gets the style of the clicked button and applies it to the neutral square.
 
 
 ## **if you have question about the project you can contact me on my **[linkedIn](https://www.linkedin.com/in/nassim-hammoudi-8a5235314/)**
