@@ -15,8 +15,8 @@ and `Active Classes` from exo3.
 ## **Main function of the project**
 
 
-This function is used when clicked, it checks if the square is **NOT** active. if it's **NOT** active,
-it will add the active class `zoom` and change the body `background-color` to grey, its default `background color`.
+This function is used when clicked, it checks if the square **is** active. if it **is** active,
+it will **remove** the active class `zoom` and change the body `background-color` to grey, its default `background color`.
 It also changes the `display` of the paragraph to `none` to make it invisible. 
 ```js
 function zoom(btn){
