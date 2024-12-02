@@ -1,3 +1,7 @@
 # **README BaseJS exo 1**
 
-## **Project Title**
+## **base-JS Exercise 1**
+
+## **Introduction**
+
+This exercise is here to learn how to use `addEventListener` in JS
