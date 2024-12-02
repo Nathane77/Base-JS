@@ -1,8 +1,14 @@
+body{
+    background-color: #646464;
+}
+
+
 .container{
     display: flex;
-    width: 100%;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
+    margin-top: 10%;
+
 }
 
 .row{
@@ -15,4 +21,22 @@
     background-color: greenyellow;
     width: 200px;
     height: 200px;
+    margin: 0 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation1{
+    animation-name: spin;
+    animation-duration: 500ms;
+    background-color: crimson ;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(90deg);
+    }
 }
