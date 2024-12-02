@@ -20,6 +20,6 @@ function showInfo(){
 );
 }
 ```
-all the Constant are set right befor with QuerySelectors.
+all the Constant are set right before with `QuerySelectors`.
 
 ## **if you have question about the project you can contact me on my **[linkedIn](https://www.linkedin.com/in/nassim-hammoudi-8a5235314/)**
