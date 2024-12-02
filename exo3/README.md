@@ -22,4 +22,4 @@ function animation(square){
 ```
 Otherwise it will simply remove the active class.
 
-## **if you have question about the project you can contact me on my **[linkedIn]**(https://www.linkedin.com/in/nassim-hammoudi-8a5235334/)**
+## **if you have question about the project you can contact me on my [linkedIn](https://www.linkedin.com/in/nassim-hammoudi-8a5235334/)**

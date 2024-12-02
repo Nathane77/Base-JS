@@ -45,4 +45,4 @@ function zoom(btn){
 Otherwise it will **add** the active class,
 and change the `display` of the paragraph to `flex` to make it visible.
 
-## **if you have question about the project you can contact me on my **[linkedIn]**(https://www.linkedin.com/in/nassim-hammoudi-8a5235334/)**
+## **if you have question about the project you can contact me on my [linkedIn](https://www.linkedin.com/in/nassim-hammoudi-8a5235334/)**
