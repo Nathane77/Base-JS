@@ -31,4 +31,4 @@ btns.forEach(btn =>{
 Then it gives the function to execute when a button is clicked, here it gets the style of the clicked button and applies it to the neutral square.
 
 
-## **if you have question about the project you can contact me on my **[linkedIn](https://www.linkedin.com/in/nassim-hammoudi-8a5235314/)**
+## **if you have question about the project you can contact me on my **[linkedIn]**(https://www.linkedin.com/in/nassim-hammoudi-8a5235334/)**
