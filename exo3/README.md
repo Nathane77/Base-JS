@@ -9,7 +9,7 @@ This exercise is here to learn how to use `Active Classes` to interact with CSS 
 ## **Main function of the project**
 
 
-This function is used when clicked, it checks if the square is active. If it is, it will remove the active class `animation1`. 
+This function is used when clicked, it checks if the square is **NOT** active. if it is **NOT**, it will add the active class `animation1`. 
 ```js
 function animation(square){
     if(square.className == "square"){
