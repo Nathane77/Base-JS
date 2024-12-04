@@ -1,9 +1,16 @@
-//get constant of my buttons and my neutral square and the neutral square's text paragraph.
-const btns = document.querySelectorAll(".square");
-const squareN = document.querySelector('.squareNeutral');
-const squareNText = document.querySelector('.neutralText');
+# **README BaseJS exo 2**
 
-//make a foreach on the list of buttons to give them the event listener.
+## **base-JS Exercise 2**
+
+## **Introduction**
+
+This exercise is here to learn how to use `array.forEach(element => { });` to assign `AddEventListener`to a list of elements in JS.
+
+## **Main function of the project**
+
+
+This function add an `addEventListener` to each button in the array of buttons.
+```js
 btns.forEach(btn =>{
     btn.addEventListener("click", function(){
       
@@ -20,4 +27,8 @@ btns.forEach(btn =>{
     })
     
 });
+```
+Then it gives the function to execute when a button is clicked, here it gets the style of the clicked button and applies it to the neutral square.
 
+
+## **if you have question about the project you can contact me on my [linkedIn](https://www.linkedin.com/in/nassim-hammoudi-8a5235334/)**
