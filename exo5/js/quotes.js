@@ -89,4 +89,16 @@ export let quotes = [
         "title": "Léon",
         "content": "La vie c’est comme ça tout le temps ? Ou c’est seulement quand on est petit ?"
     },
+    {
+        "id": 16,
+        "author": "Kazuya Mishima",
+        "title": "Tekken 8",
+        "content": "茶番は終わりだ. haban wa owari da",
+    },
+    {
+        "id": 17,
+        "author": "Denilson DELMAS",
+        "title": "Denilson DELMAS",
+        "content": "pfffff.. le javaScript c'est bien que quand ça marche.",
+     }
 ];

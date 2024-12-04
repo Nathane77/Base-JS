@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -9,10 +10,8 @@ body{
 
 .container{
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-direction: column;
-    height: 50%;
+    align-items: center;
 }
 
 .quote{
@@ -20,21 +19,21 @@ body{
     padding: 1em;
     margin: 1em;
     border-radius: 15px;
-    width: 80%;
     text-align: center;
-
+    width: fit-content;
+    min-width: 30%;
+    max-width: 60%;
 }
 
 .txt{
     padding: 0.2em 0;
 }
 
-.square{
-    display: flex;
-    background-color: greenyellow;
-    width: 200px;
-    height: 200px;
-    margin: 0 1em;
-    align-items: center;
-    justify-content: center;
+.content{
+    font-style: italic;
+}
+
+.author{
+    text-align: right;
+    margin-right: 0.2em;
 }
