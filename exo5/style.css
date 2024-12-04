@@ -10,18 +10,31 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    text-align: justify;
+    align-content: center;
     flex-direction: column;
+    height: 50%;
 }
 
 .quote{
     background-color: beige;
-
     padding: 1em;
     margin: 1em;
     border-radius: 15px;
+    width: 80%;
+    text-align: center;
+
 }
 
 .txt{
     padding: 0.2em 0;
+}
+
+.square{
+    display: flex;
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+    margin: 0 1em;
+    align-items: center;
+    justify-content: center;
 }
