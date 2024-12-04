@@ -81,46 +81,49 @@ quotes.forEach(quote => {
         favButton.appendChild(favImg);
         favImg.appendChild(favImgIcon);
 
+    //checks the local storage for matchin favoured quotes
+    if(quote['content'] == localStorage[quote['author']]){
 
-    // if(quote['content'] == localStorage[quote['author']]){
-    //     console.log("j'ai recupére les info de "+quote);
-    // }
-    // else{
-    //     console.log("je n'ai PAS recupére les info de "+quote['author']);
-
-    // }
-    // console.log(quote['content']);
+        //changes the class to full heart to show favoured quotes 
+       quoteDiv.children[3].children[0].classList.replace('fa-regular','fa-solid');
+    }
 });
 
-
+//selects all my star favorite button
 const favButtons = document.querySelectorAll('.favBtn');
 
+//adds the function to each button individually
 favButtons.forEach(favButton => {
     favButton. addEventListener('click', function(){
         fav(favButton);
      });
 });
    
+//function to add favorits to your locale storage
 function fav(favButton){
 
+    //creation of the function, author and content, got from the relationship of the button
     let author = favButton.parentElement.children[2].children[0].textContent;
-    let content = favButton.parentElement.children[1].children[0].textContent;
+    let content = favButton.parentElement.children[1].children[0].textContent.replace('"', '');
 
+    //removes all the "quotes" from the content string.
+    let contentRep = content.replace('"', '');
+
+    //checks if the fav button is active or not,
     if(favButton.children[0].classList.contains('fa-solid')){
+
+        //if it is, it removes the class, and removes the quote from the local storage
         favButton.children[0].classList.replace('fa-solid','fa-regular');
         favButton.parentElement.classList.remove('favorite');
         
-        localStorage.setItem(author, content);
+        localStorage.removeItem(author, contentRep);
     }
     else{
+
+        //otherwise, it will add the class to the button, and add the quotes to the locale storage.
         favButton.children[0].classList.replace('fa-regular','fa-solid');
         favButton.parentElement.classList.add('favorite');
-
-
-        localStorage.setItem(author, content);
-        // console.log(localStorage['Biff Tannen']);
-
-        // localStorage.setItem(favButton.nextSibling)
+        localStorage.setItem(author, contentRep);
     }
 };
 
