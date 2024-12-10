@@ -1,5 +1,6 @@
 //imports the list of quotes from the file quotes.js
 import {quotes} from './quotes.js'
+
 //gets the div container from the html
 const container = document.querySelector('.container');
 
@@ -127,3 +128,14 @@ function fav(favButton){
     }
 };
 
+//gets the reset favorties button
+const clearFav = document.querySelector('.clearFav');
+
+clearFav.addEventListener('click', function(){
+    resetFav();
+})
+
+function resetFav(){
+    localStorage.clear();
+    location.reload();
+}

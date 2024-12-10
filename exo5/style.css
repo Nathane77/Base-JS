@@ -8,6 +8,27 @@ body{
     background-color: grey;
 }
 
+nav{
+    display: flex;
+    margin: 2em 3em;
+    justify-content: end;
+}
+
+.clearFav{
+    background-color: #f3cba3;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.clearFav:hover{
+    cursor: pointer;
+    background-color: #e7b685;
+    width: 105px;
+    height: 40px;
+}
+
+
 .container{
     display: flex;
     flex-direction: column;
@@ -17,6 +38,7 @@ body{
 .quote{
     background-color: #f3cba3;
     padding: 1em;
+    padding-bottom: 0.5em;
     margin: 1em;
     border-radius: 15px;
     text-align: center;
@@ -36,4 +58,18 @@ body{
 .author{
     text-align: right;
     margin-right: 0.2em;
+}
+
+.fa-star{
+    width:35px ;
+    height:33px ;
+}
+
+.fa-star:hover{
+    cursor:pointer;
+}
+
+.quote:has(.fa-star:hover){
+    transform: scale(1.05);
+    background-color: #e7b685;
 }
